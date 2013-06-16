@@ -4,7 +4,9 @@ A redis implementation in Go.
 
 Thanks to US Airways treating me to a 6 hour delay going from PHL -> BRU, I
 found myself with a little extra time, so I decided to see if I could implement
-a Go server implementing the redis protocol and GET/SET commands.
+a Go server implementing the [redis
+protocol](file://localhost/Users/felix/Desktop/redis.html) and GET/SET
+commands.
 
 The result is kind of neat, and seems to perform almost as well as redis itself
 without attempting any forms of optimizations yet.
