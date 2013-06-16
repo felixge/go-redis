@@ -200,7 +200,6 @@ func (client *client) readLine() (string, error) {
 
 		return line, nil
 	}
-	return "", nil
 }
 
 type command struct {
